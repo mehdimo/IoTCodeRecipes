@@ -24,13 +24,13 @@ When a client finds the address of a service provider in its lookup table, it th
 To run the program, you can open the prepared project with .csc extension.
 You can also follow these steps to configure your own project:
 
-1- Open Cooja simulator, create a new project and set a name for that. You can keep the default settings. 
-2- Create a mote type based on Sky Mote.
-3- Upload the processing code (service_discovery_IoT.c) to the mote.
-4- Compile the code.
-5- Create mote type.
-6- Now you can add several instances of that mote to your environment.
-7- Start the simulation.
+1. Open Cooja simulator, create a new project and set a name for that. You can keep the default settings. 
+2. Create a mote type based on Sky Mote.
+3. Upload the processing code (service_discovery_IoT.c) to the mote.
+4. Compile the code.
+5. Create mote type.
+6. Now you can add several instances of that mote to your environment.
+7. Start the simulation.
 
 
 Wireless Sensor Network
@@ -47,21 +47,21 @@ ContikiRPL which is an implementation of RPL is used in this model as routing pr
 
 To run the program, open the prepared project with .csc extensionthe or follow the below steps to create a new project:
 
-1- Open Cooja simulator, create a new project and set a name for it. You can use default settings in your project. 
-2- Create a Sky Mote and name it Normal mote.
-3- Upload the processing code (normal_mote.c) to the Normal mote.
-4- Compile Normal mote.
-5- Create mote type.
-6- Create a Sky Mote and name it Anchor mote.
-7- Upload the processing code (anchor_mote.c) to the Anchor mote.
-8- Compile the Anchor mote.
-9- Create mote type.
-10- Create another Sky Mote and name it Sink mote.
-11- Upload the processing code (sink_mote.c) to the Sink mote.
-12- Compile the Sink mote
-13- Create mote type.
-14- Now you can add several instances of these motes to your environment.
-15- Start the program.
+1. Open Cooja simulator, create a new project and set a name for it. You can use default settings in your project. 
+2. Create a Sky Mote and name it Normal mote.
+3. Upload the processing code (normal_mote.c) to the Normal mote.
+4. Compile Normal mote.
+5. Create mote type.
+6. Create a Sky Mote and name it Anchor mote.
+7. Upload the processing code (anchor_mote.c) to the Anchor mote.
+8. Compile the Anchor mote.
+9. Create mote type.
+10. Create another Sky Mote and name it Sink mote.
+11. Upload the processing code (sink_mote.c) to the Sink mote.
+12. Compile the Sink mote
+13. Create mote type.
+14. Now you can add several instances of these motes to your environment.
+15. Start the program.
 
 Cloud Computing
 ---------------
