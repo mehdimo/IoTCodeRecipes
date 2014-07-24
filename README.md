@@ -65,13 +65,3 @@ To run the program, open the prepared project with .csc extensionthe or follow t
 
 Cloud Computing
 ---------------
-
-It is a simple project that sends on behalf of sensors the temperature to the [public Nimbits cloud](http://cloud.nimbits.com) using REST method. The code is executable in contiki as well as linux platforms and it can be ported to sensor devices by some minor changes.
-To be able to run this program, you need at first to create a [Nimbits](http://www.nimbits.com) app account via a Google account. To get more information about the Nimbits account, you can refer to the [Nimbits website](http://www.nimbits.com) and its user manual. 
-The following steps are required to be done before running the program.
-1. Log into the public Nimbits cloud: [https://cloud.nimbits.com](https://cloud.nimbits.com)
-2. On the panel, select your email account. Now it should be a single node without any children.
-3. Right click over email account and from the menu select creating new data point. Name your data point as "tempreture". 
-4. Right click on your email again and from the menu select to create a new Read/Write key. This key (a.k.a secrete key) is a password for creating, deleting and changing data and is used in the program as one of POST parameters. For simplicity, we choose its permission level as "Read/Write to all points". 
-5. Then you should change the variable email in the program to your own email and the key to your own Read/Write key.
-6. Now you are ready to run the program. The program generates random data as temperature and sends to the cloud.
