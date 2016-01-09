@@ -8,7 +8,7 @@ There are three separate samples that pertain to different aspects of IoT.
 - Wireless Sensor Network
 - Cloud Computing
 
-To run these programs you need to have Contaki and Cooja installed on your machine. To get started with Contaki and cooja refer to  its [quickstart](http://www.contiki-os.org/start.html).
+To run these programs you need to have Contiki and Cooja installed on your machine. To get started with Contiki and cooja refer to  its [quickstart](http://www.contiki-os.org/start.html).
 If you have your contiki folder in /home/user/ you don't need to change the CONTIKI variable in MAKEFILEs; Otherwise, you have to change it to the installed path of contiki.
 
 Service Discovery 
