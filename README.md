@@ -11,6 +11,12 @@ There are three separate samples that pertain to different aspects of IoT.
 To run these programs you need to have Contiki and Cooja installed on your machine. To get started with Contiki and cooja refer to  its [quickstart](http://www.contiki-os.org/start.html).
 If you have your contiki folder in /home/user/ you don't need to change the CONTIKI variable in MAKEFILEs; Otherwise, you have to change it to the installed path of contiki.
 
+Citation- Please cite [this paper](http://ieeexplore.ieee.org/document/7123563/?arnumber=7123563) when using this code for your research: 
+
+<i>
+A. Al-Fuqaha, M. Guizani, M. Mohammadi, M. Aledhari and M. Ayyash, "Internet of Things: A Survey on Enabling Technologies, Protocols, and Applications," in IEEE Communications Surveys & Tutorials, vol. 17, no. 4, pp. 2347-2376, Fourthquarter 2015.
+</i>
+
 Service Discovery 
 -----------------
 
